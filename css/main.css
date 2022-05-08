@@ -467,9 +467,8 @@ footer {
 
 #textBlog {
   text-align: justify;
-  width: 80%;
+  width: 100%;
   font-size: 12px;
-  margin: auto;
   padding-bottom: 10px;
 }
 
@@ -480,12 +479,12 @@ footer {
 } */
 
 .container-blog img {
-  width: 80%;
+  width: 100%;
   margin: auto;
   padding-bottom: 10px;
 }
 
-.container-blog-item h3 {
+.container-blog h3 {
   margin: 0;
   text-decoration: underline;
   color: #306BF0 !important;
@@ -493,7 +492,7 @@ footer {
   padding-bottom: 10px;
 }
 
-.container-blog-item h5 {
+.container-blog h5 {
   margin-top: -2%;
   color: #ffffff;
   text-shadow: 0px 0px 4px black;
@@ -534,6 +533,7 @@ footer {
   align-items: center;
   position: relative;
   margin-bottom: 20px;
+  width: 384px;
 }
 
 .card0 {
@@ -832,12 +832,23 @@ footer {
   /*FIN Page Contacto*/
   
   /*Page Blog*/
-  .container-blog-item h5{
+  .container-blog .container{
+    margin: 0px auto;
+  }
+  .container-blog h5{
     margin-top: -1px;
   }
-  .container{
-    width: 48%;
+  .container-blog h3{
+    font-size: 16px;
   }
+  #textBlog {
+    text-align: justify;
+    font-size: 12px;
+    margin: 0px;
+}
+.section6 .container{
+  width: 74%;
+}
   /*FIN Page Blog*/
   }
 
@@ -1184,44 +1195,45 @@ footer {
     margin-top: 2%;
     font-size: 26px;
   }
-
+  #textBlog {
+    text-align: justify;
+    width: 40%;
+    font-size: 14px;
+    margin: 10px 0px 10px 0px;
+  }
+  .container-blog .container{
+    justify-content: space-between;
+    flex-direction: column;
+  }
   .container-blog {
-    width: 94%;
-    margin: auto;
+    width: 96%;
     columns: 2;
-  }
-
-  .textBlog {
-    padding-bottom: 0px;
-  }
-
-  .container-blog>div {
-    display: block;
-    align-items: center;
-    padding-bottom: 14px;
-  }
+    margin: 0px auto;
+  } 
 
   .container-blog img {
-    width: 50%;
-    height: 136px;
-    margin-left: 12px;
+    width: 42%;
+    height: 280px;
+    margin: 0px auto;
   }
 
-  .container-blog-item>div {
-    display: flex;
-    align-items: center;
-    padding-top: 0%;
+  .container-blog h3 {
+    margin: 0;
+    text-decoration: underline;
+    font-size: 20px;
   }
 
-  .container-blog-item h3 {
-    text-align: left;
-  }
-
-  .container-blog-item h5 {
+  .container-blog h5 {
     margin-top: 0%;
+    /* margin-bottom: 0%; */
+    color: #ffffff;
     text-shadow: 2px 2px 8px black;
-    text-align: left;
   }
+  /* Bootstrap */
+  .container-blog .row .col>div{
+    margin-bottom: 20px;
+  }
+/* fin Bootstrap */
 
   .section6 {
     text-align: center;
