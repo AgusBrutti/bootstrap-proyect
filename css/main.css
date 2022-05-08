@@ -14,9 +14,11 @@
     display: block;
   }
   .logo-header {
-    width: 100%;
+    width: 58%;
   }
-
+  .logo-truck{
+    width: 20%;
+  }
 /* Bootstrap */
 .nav-link{
     color: #ffffff;
@@ -32,8 +34,10 @@ border: none;
 width: 100%;
 }
 .navbar-brand{
-padding-top: 0px;
+padding-top: 16px;
 width: 250px;
+display: flex;
+align-items: center;
 }
 /* Logo de nav-header */
 .nav-text, .navbar-inverse .navbar-nav>li>a{
@@ -214,7 +218,7 @@ body {
     color: rgb(255 255 255 / 82%);
     text-shadow: -4px -2px 12px black;
   }
- 
+
   #dialog1 .form-control,#dialog2 .form-control {
     display: block;
     width: 100%;
@@ -337,6 +341,11 @@ footer {
   
   .p-5 p {
     font-size: 14px;
+  }
+
+  /* animacion de animation style */
+  .animate__animated.animate__bounce{
+    --animate-duration: 2s;
   }
   /* FIN Page Servicios - CSS */
 
@@ -619,7 +628,7 @@ footer {
       width: 96%;
     }
     .img3-home {
-     display: none;
+    display: none;
     }
     .img2-home{
       display: block;
@@ -1319,6 +1328,12 @@ footer {
     /*Header con logo y menú principal*/
     .navbar-brand {
         width: 300px;
+    }
+    .logo-header{
+      width: 50%;
+    }
+    .logo-truck{
+      width: 30%;
     }
     /*FIN Header con logo y menú principal*/
   
