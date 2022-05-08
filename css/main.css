@@ -473,11 +473,11 @@ footer {
   padding-bottom: 10px;
 }
 
-.container-blog {
+/* .container-blog {
   width: 94%;
   margin: auto;
   text-align: center;
-}
+} */
 
 .container-blog img {
   width: 80%;
@@ -500,6 +500,7 @@ footer {
   padding-bottom: 10px;
   font-size: 12px;
 }
+
 
 .section6 {
   text-align: center;
@@ -1708,49 +1709,40 @@ footer {
 
   #textBlog {
     text-align: justify;
-    width: 80%;
+    width: 40%;
     font-size: 14px;
+    margin: 10px 0px 10px 0px;
   }
 
   .container-blog {
-    width: 94%;
-    margin-left: 2%;
-    margin-right: auto;
+    width: 80%;
     columns: 2;
-  }
-
-  .container-blog>div {
-    display: block;
-    align-items: center;
-    padding-left: 44px;
-    padding-bottom: 14px;
-  }
+    margin: 0px auto;
+  } 
 
   .container-blog img {
-    width: 50%;
-    height: 227px;
-    margin-left: 20px;
+    width: 40%;
+    height: 340px;
+    margin: 0px auto;
   }
 
-  .container-blog-item>div {
-    display: flex;
-    align-items: center;
-    height: 210px;
-  }
-
-  .container-blog-item h3 {
+  .container-blog h3 {
     margin: 0;
     text-decoration: underline;
     font-size: 20px;
   }
 
-  .container-blog-item h5 {
-    margin-top: 8%;
-    margin-bottom: 0%;
+  .container-blog h5 {
+    margin-top: 0%;
+    /* margin-bottom: 0%; */
     color: #ffffff;
     text-shadow: 2px 2px 8px black;
   }
-
+  /* Bootstrap */
+  .container-blog .row .col>div{
+    margin-bottom: 20px;
+  }
+/* fin Bootstrap */
   .section6 {
     text-align: center;
   }
